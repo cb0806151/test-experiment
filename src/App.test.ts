@@ -5,8 +5,8 @@ it('verify basic addition', () => {
 });
 
 it('verify type check success', () => {
-  const a: string = 5
-  expect(a).toBe(5)
+  const a: string = "5"
+  expect(a).toBe("5")
 });
 
 export {}
